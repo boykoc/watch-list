@@ -4,10 +4,8 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-r2d2: 
-  uid: 01-0AB-2568
-  name: R2-D2
-  
-bb8: 
-  uid: 22-06684-8753
-  name: BB-8
+one: 
+  season: 1
+  episode: 2
+  title: 'Friends'
+  user: users(:bb8)
