@@ -14,5 +14,8 @@ module WatchList
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    
+    # Load in new settings.yml file.
+    config.x.settings = Rails.application.config_for :settings
   end
 end

@@ -9,6 +9,16 @@
   </head>
 
   <body>
+    <% if logged_in? %>
+      <% if current_user.image %>
+        <%= image_tag current_user.image, class: "img-circle", width: 24 %>
+      <% end %>
+      <span>
+        <%= current_user.name %> <%= link_to 'Logout', logout_path %>
+      </span>
+    <% else %>
+      <%= link_to 'Login', login_path %>
+    <% end %>
     <%= yield %>
   </body>
 </html>

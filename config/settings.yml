@@ -1,0 +1,10 @@
+default: &default
+  oauth2:
+    client_id: id-here
+    client_secret: secret-here
+
+development:
+  <<: *default
+
+production:
+  <<: *default

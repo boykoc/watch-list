@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple rails app to let users track TV shows they are watching. After 
+cable cutting I started watching shows from various sources such as DVDs from 
+the local library and streaming from multiple services. It became hard to 
+remember what episode I was last on, so I'm creating this to help.
 
-Things you may want to cover:
+## Status
 
-* Ruby version
+Work in progress...
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [x] Google authentication
+* [x] Basic home page
+* [x] User model
+* [x] Show model
+* [ ] Let user create shows
+* [ ] Display current shows
+* [ ] Display suggested shows based on current shows (maybe)
+* [ ] Use some api to get tv show details (i.e. images, descriptions, episode titles)
+* [ ] Implement for movies
